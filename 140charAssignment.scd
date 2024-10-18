@@ -1,0 +1,1 @@
+{arg f=78.3,a=0.25;Out.ar(0,(Splay.ar(Mix.ar(SinOsc.ar([f*0.99999,f*1.00001,f*1.9999,f*2.0001,f*3,f*4],0,[a,a,a/2,a/2,a/4,a/8])))));}.play
